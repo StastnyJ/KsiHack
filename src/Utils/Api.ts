@@ -1,4 +1,5 @@
-export const apiUrl = "http://localhost:9000";
+// export const apiUrl = "http://localhost:9000";
+export const apiUrl = "https://api.prison.stastnyjakub.com";
 
 export const apiFetch = (
   path: string,
