@@ -38,7 +38,6 @@ export default function ReleaseRequests() {
     const data = new FormData();
     data.append("requestId", reqId.toString());
     data.append("userId", "219");
-    // data.append("userId", "483");
     apiFetch(
       "/releaseRequests/approveRequest.php",
       "POST",
