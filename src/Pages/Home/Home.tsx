@@ -31,6 +31,25 @@ export default function Home() {
               <Typography>
                 Uživatelské jméno: <b>{layout.loggedName}</b>
               </Typography>
+              {
+                // --------------------------------------------------
+                //               VZKAZ PRO ŘEŠITELE
+                // --------------------------------------------------
+                //
+                // Tyto kódy níže jsou validní kódy pro vyřešení prvních
+                // 2 levelů. Nejde však o zamýšlený způsob řešení ani
+                // jednoho z levelů, které jsme zamýšleli vyřešit jiným
+                // způsobem. Jelikož analýza kódu je validní způsob web-
+                // hackingu, pak je samozřejmě použít k odevzdání můžete.
+                // Ovšem pokud jste levely 1 a 2 ještě nevyřešili očekávaným
+                // způsobem, výrazně doporučujeme, abyste tyto kódy ještě
+                // neodevzdávali a nejdříve první 2 levely vyřešili. Po
+                // úspěšném odevzdání kódu totiž příjdete o možnost vyzvednutí
+                // nápověd pro daný level a jelikož pro řešení levelů 3 a 4
+                // je nutná prerequisita vyřešení prvních 2 levelů
+                // zamýšleným způsobem, můžou vám tyto nápovědy v budoucnu
+                // chybět.
+              }
               <Typography>
                 ID zaměstnanca: <b>prx1234653823d</b>
               </Typography>
